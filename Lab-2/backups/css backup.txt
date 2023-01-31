@@ -1,0 +1,61 @@
+/* This will be the color of all links as default*/
+a:link {
+  color: #ff014b;
+}
+  
+/* visited link */
+a:visited {
+  color: green;
+}
+  
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+  
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/* Testing images */
+img.testing
+{
+  opacity: 0.5;
+  max-width: 100%;
+  height: auto;
+}
+
+img.testing:hover
+{
+  opacity: 1;
+}
+
+
+/* Navbar stuff */
+
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+li 
+{
+  display: inline;
+  float:left;
+}
+
+a 
+{
+  /* display: block; */
+  /* ^ this lists it in the same way it was */
+  
+  padding: 8px;
+  
+  /*background-color: #dddddd;*/
+  /* ^ the options are on this block of color */
+}
+
